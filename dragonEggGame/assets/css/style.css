@@ -533,7 +533,7 @@ html {
 
   .hero-social {
     position: absolute;
-    top: 65%;
+    bottom: 0%;
   }
   .collect-title {
     font-weight: 600;
@@ -614,19 +614,18 @@ html {
   .epiccaracter {
     display: none;
   }
-
+  .communcaracter {
+    display: none;
+  }
   .rarecaracter {
     position: absolute;
     right: 13%;
-    bottom: 0;
+    bottom: 10%;
     height: 30%;
-  }
-  .communcaracter {
-    display: none;
   }
 
   .hero-social {
     position: absolute;
-    top: 65%;
+    bottom: 0%;
   }
 }
