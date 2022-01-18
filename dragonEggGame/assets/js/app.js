@@ -1,20 +1,11 @@
 const navbtn = document.querySelector("#navbtn");
 const heroNavigationMenu = document.querySelector(".hero-navigation-menu");
 navbtn.addEventListener("click", function () {
-  if (
-    navbtn.getAttribute("src") ===
-    "https://img.icons8.com/dotty/80/ffffff/dinosaur-egg.png"
-  ) {
-    navbtn.setAttribute(
-      "src",
-      "https://img.icons8.com/ios/80/ffffff/egg-pokemon.png"
-    );
+  if (navbtn.style.rotate === "") {
+    navbtn.style.rotate = "90deg";
     heroNavigationMenu.style.right = "0px";
   } else {
-    navbtn.setAttribute(
-      "src",
-      "https://img.icons8.com/dotty/80/ffffff/dinosaur-egg.png"
-    );
+    navbtn.style.rotate = "";
     heroNavigationMenu.style.right = "-600px";
   }
 });

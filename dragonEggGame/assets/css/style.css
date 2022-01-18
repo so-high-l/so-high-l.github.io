@@ -256,6 +256,10 @@ html {
   margin-left: 80px;
 }
 
+.btns-area {
+  margin-top: -30px;
+}
+
 /* collect section styling */
 
 #block-collect {
@@ -503,20 +507,23 @@ html {
   .hero-navigation-menu {
     width: 50vw;
   }
+  .hero-content.btn {
+    margin-top: 0;
+  }
   .hero-title {
     font-weight: 600;
     font-size: 40px;
   }
   .epiccaracter {
     position: absolute;
-    right: 0;
+    left: 0;
     bottom: 0;
-    height: 40%;
+    height: 30%;
   }
 
   .rarecaracter {
     position: absolute;
-    right: 200px;
+    right: 0;
     bottom: 0;
     height: 30%;
   }
