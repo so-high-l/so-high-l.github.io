@@ -517,18 +517,17 @@ html {
   .epiccaracter {
     position: absolute;
     left: 0;
-    bottom: 0;
-    height: 30%;
-  }
-
-  .rarecaracter {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    bottom: 10%;
     height: 30%;
   }
   .communcaracter {
     display: none;
+  }
+  .rarecaracter {
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+    height: 30%;
   }
 
   .hero-social {
