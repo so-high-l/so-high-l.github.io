@@ -249,6 +249,7 @@ html {
   height: 40%;
 }
 .logotxt {
+  text-transform: uppercase;
   z-index: 10;
   font-size: 1.3rem;
   color: #4c9d80;
@@ -450,6 +451,114 @@ html {
   transition: 0.1s;
 }
 /* End of Gallery styling */
+
+/* Team section styling */
+#block-team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #b3f6ff;
+}
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+.container .card {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .card .imgBx img {
+  height: 60%;
+  width: 90%;
+}
+.container .card .content {
+  position: absolute;
+  bottom: -160px;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  flex-direction: column;
+  backdrop-filter: blur(15px);
+  background-color: rgba(48, 48, 48, 0.459);
+  box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: bottom 0.5s;
+}
+
+.container .card:hover .content {
+  bottom: 0;
+}
+
+.container .card .content .contentBx h3 {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0 15px;
+  line-height: 1.1em;
+  transition: 0.5s;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition-delay: 0.6s;
+}
+.container .card:hover .content .contentBx h3 {
+  opacity: 1;
+  transform: translateY(0px);
+}
+.container .card .content .contentBx h3 span {
+  font-size: 12px;
+  font-weight: 300;
+  text-transform: initial;
+}
+.container .card .content .sci {
+  position: relative;
+  bottom: 10px;
+  display: flex;
+}
+.container .card .content .sci li {
+  list-style: none;
+  margin: 0 10px;
+  transform: translateY(40px);
+  transition: 0.5s;
+  opacity: 0;
+  transition-delay: calc(0.2s * var(--i));
+}
+.container .card:hover .content .sci li {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.container .card .content .sci li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+}
+.container .card .content .sci li a i {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+}
+.container .card .content .sci li a i:hover {
+  color: rgb(0, 100, 95);
+  font-size: 24px;
+}
+/* End of Team section styling */
 
 @media only screen and (max-width: 1000px) {
   #block-gallery {
