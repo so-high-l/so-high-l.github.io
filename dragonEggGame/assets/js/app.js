@@ -52,3 +52,30 @@ document.addEventListener("mousemove", (e) => {
     "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;"
   );
 });
+
+// gallery carousels
+//eggs
+const p = "./assets/images/";
+let image1 = document.querySelector("#eggs-imgs");
+let dragonsimages = [
+  "rareWbg.jpeg",
+  "rareWbg2.jpeg",
+  "rareWbg3.jpeg",
+  "rareWbg4.jpeg",
+  "rareWbg5.jpeg",
+  "rareWbg6.jpeg",
+  "epicWbg.jpeg",
+  "communWbg.jpeg",
+];
+let eggsimages = ["egg1.jpeg", "egg2.jpeg", "egg3.jpeg", "egg4.jpeg"];
+setInterval(function () {
+  let random = Math.floor(Math.random() * 4);
+  image1.src = p + eggsimages[random];
+}, 300);
+
+// dragons
+let image2 = document.querySelector("#dragons-imgs");
+setInterval(function () {
+  let random = Math.floor(Math.random() * 8);
+  image2.src = p + dragonsimages[random];
+}, 300);
