@@ -1,3 +1,20 @@
+/* SUMMARY 
+          GENERAL STYLING
+
+          HERO SECTION STYLING
+
+          COLLECT SECTION STYLING
+
+          ABOUT SECTION STYLING
+
+          GALLERY SECTION STYLING
+
+          ROADMAP SECTION STYLING
+
+          RESPONSIVE MEDIA QUERIES
+
+END OF SUMMARY */
+
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
@@ -78,7 +95,7 @@ html {
 }
 
 /* End of General styling */
-
+/* Hero section styling */
 #block-hero {
   background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
   overflow: hidden;
@@ -262,7 +279,7 @@ html {
 .btns-area {
   margin-top: -30px;
 }
-
+/* Hero section styling */
 /* collect section styling */
 
 #block-collect {
@@ -647,54 +664,6 @@ html {
   border-right: 7px solid #6e2f65;
 }
 
-@media screen and (max-width: 768px) {
-  #timeline {
-    margin: 30px;
-    padding: 0px;
-    width: 90%;
-  }
-  .project-name {
-    font-size: 3rem;
-    text-align: center;
-    color: white;
-    padding-bottom: 40px;
-  }
-  #timeline:before {
-    left: 0;
-  }
-  #timeline .timeline-item .timeline-content {
-    width: 95%;
-    float: right;
-  }
-  #timeline .timeline-item .timeline-content:before,
-  #timeline .timeline-item .timeline-content.right:before {
-    left: 10%;
-    margin-left: -6px;
-    border-left: 0;
-    border-right: 7px solid #6e2f65;
-  }
-  #timeline .timeline-item .timeline-icon {
-    left: 0;
-  }
-  #timeline .timeline-item .timeline-content h2 {
-    padding: 5px;
-    font-size: 20px;
-    letter-spacing: 1px;
-  }
-  #timeline .timeline-item .timeline-content p {
-    padding: 5px;
-    font-size: 15px;
-    letter-spacing: 1px;
-  }
-  .gallery-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10%;
-    margin-top: 0;
-  }
-}
-
 /* End of Roadmap Styling */
 
 /* Team section styling */
@@ -900,7 +869,7 @@ html {
   transform: rotate(10deg);
 }
 /* END of Footer styling */
-
+/* Responsive styling */
 @media only screen and (max-width: 1000px) {
   #block-gallery {
     height: auto;
@@ -1005,6 +974,53 @@ html {
 
   .footer-pics {
     display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  #timeline {
+    margin: 30px;
+    padding: 0px;
+    width: 90%;
+  }
+  .project-name {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+  }
+  #timeline:before {
+    left: 0;
+  }
+  #timeline .timeline-item .timeline-content {
+    width: 95%;
+    float: right;
+  }
+  #timeline .timeline-item .timeline-content:before,
+  #timeline .timeline-item .timeline-content.right:before {
+    left: 10%;
+    margin-left: -6px;
+    border-left: 0;
+    border-right: 7px solid #6e2f65;
+  }
+  #timeline .timeline-item .timeline-icon {
+    left: 0;
+  }
+  #timeline .timeline-item .timeline-content h2 {
+    padding: 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+  }
+  #timeline .timeline-item .timeline-content p {
+    padding: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+  }
+  .gallery-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    margin-top: 0;
   }
 }
 @media only screen and (max-width: 600px) {
