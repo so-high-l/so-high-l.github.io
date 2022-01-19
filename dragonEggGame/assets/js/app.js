@@ -1,11 +1,14 @@
 const navbtn = document.querySelector("#navbtn");
 const heroNavigationMenu = document.querySelector(".hero-navigation-menu");
 navbtn.addEventListener("click", function () {
-  if (navbtn.style.rotate === "") {
-    navbtn.style.rotate = "90deg";
+  if (
+    navbtn.src === "https://img.icons8.com/ios-filled/30/ffffff/menu--v1.png"
+  ) {
+    navbtn.src =
+      "https://img.icons8.com/ios-filled/30/ffffff/delete-sign--v1.png";
     heroNavigationMenu.style.right = "0px";
   } else {
-    navbtn.style.rotate = "";
+    navbtn.src = "https://img.icons8.com/ios-filled/30/ffffff/menu--v1.png";
     heroNavigationMenu.style.right = "-600px";
   }
 });

@@ -97,11 +97,23 @@ html {
 /* End of General styling */
 /* Hero section styling */
 #block-hero {
-  background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
   overflow: hidden;
-
   height: 100vh;
   min-height: 100vh;
+  background: linear-gradient(197deg, #040347, #103b38, #85269c, #7fe3f7);
+  background-size: 240% 240%;
+  animation: gradient-animation 20s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 .hero-container {
   position: absolute;
@@ -156,7 +168,7 @@ html {
   width: 24vw;
   position: fixed;
   right: -600px;
-  background-color: rgba(76, 157, 128, 0.95);
+  background-color: #84269cb6;
   z-index: 998;
   transition: 1s ease-in-out;
 }
@@ -165,7 +177,7 @@ html {
   text-transform: uppercase;
   font-size: 1.5rem;
   text-align: center;
-  color: var(--clr-light);
+  color: white;
   padding: 1rem 2rem;
   margin-bottom: 30px;
   margin-top: 30px;
