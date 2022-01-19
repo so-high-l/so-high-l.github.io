@@ -78,6 +78,14 @@ html {
 }
 
 /* End of General styling */
+
+#block-hero {
+  background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
+  overflow: hidden;
+
+  height: 100vh;
+  min-height: 100vh;
+}
 .hero-container {
   position: absolute;
   overflow: hidden;
@@ -87,13 +95,6 @@ html {
   perspective: 80px;
   perspective-origin: 50%;
   z-index: 1;
-}
-#block-hero {
-  background-image: linear-gradient(to top, #f43b47 0%, #453a94 100%);
-  overflow: hidden;
-
-  height: 100vh;
-  min-height: 100vh;
 }
 
 .hero-content {
@@ -421,20 +422,36 @@ html {
 
 /* Gallery styling */
 #block-gallery {
-  height: 80vh;
+  position: relative;
+  height: 90vh;
   padding: 3rem;
+  padding-bottom: 4rem;
   background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   flex-direction: column;
   flex-wrap: wrap;
 }
+.gallery-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  margin-top: 200px;
+}
+.gallery-btn a {
+  font-size: 0.7rem;
+  padding: 10px 30px;
+  background-color: #764ba2;
+}
+.gallery-btn a:hover {
+  background-color: #230d3a;
+  color: white;
+}
 .gallery-eggs {
-  /* border: 1px solid red; */
-  height: 50%;
+  height: 100%;
   margin-bottom: 20px;
 }
 .gallery-dragons {
-  /* border: 1px solid rgb(0, 204, 10); */
-  height: 50%;
+  height: 100%;
 }
 .gallery-eggs h1,
 .gallery-dragons h1 {
@@ -668,6 +685,13 @@ html {
     padding: 5px;
     font-size: 15px;
     letter-spacing: 1px;
+  }
+  .gallery-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    margin-top: 0;
   }
 }
 

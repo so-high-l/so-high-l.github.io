@@ -55,29 +55,53 @@ document.addEventListener("mousemove", (e) => {
 
 // gallery carousels
 //eggs
-const p = "./assets/images/";
+const p1 = "./assets/images/nft/normal dragon/images/";
+const p2 = "./assets/images/nft/egg/images/";
 let image1 = document.querySelector("#eggs-imgs");
 let dragonsimages = [
-  "rareWbg.jpeg",
-  "rareWbg2.jpeg",
-  "rareWbg3.jpeg",
-  "rareWbg4.jpeg",
-  "rareWbg5.jpeg",
-  "rareWbg6.jpeg",
-  "epicWbg.jpeg",
-  "communWbg.jpeg",
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png",
+  "6.png",
+  "7.png",
+  "8.png",
+  "9.png",
+  "10.png",
+  "11.png",
+  "12.png",
+  "13.png",
+  "14.png",
+  "15.png",
 ];
-let eggsimages = ["egg1.jpeg", "egg2.jpeg", "egg3.jpeg", "egg4.jpeg"];
+let eggsimages = [
+  "1.png",
+  "2.png",
+  "3.png",
+  "4.png",
+  "5.png",
+  "6.png",
+  "7.png",
+  "8.png",
+  "9.png",
+  "10.png",
+  "11.png",
+  "12.png",
+  "13.png",
+  "14.png",
+  "15.png",
+];
 setInterval(function () {
-  let random = Math.floor(Math.random() * 4);
-  image1.src = p + eggsimages[random];
+  let random = Math.floor(Math.random() * 15);
+  image1.src = p2 + eggsimages[random];
 }, 300);
 
 // dragons
 let image2 = document.querySelector("#dragons-imgs");
 setInterval(function () {
-  let random = Math.floor(Math.random() * 8);
-  image2.src = p + dragonsimages[random];
+  let random = Math.floor(Math.random() * 15);
+  image2.src = p1 + dragonsimages[random];
 }, 300);
 
 // roadmap animation
