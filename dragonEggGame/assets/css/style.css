@@ -677,8 +677,9 @@ html {
 #block-team {
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: auto;
   background: #b3f6ff;
+  padding: 2rem 2rem;
 }
 #block-team h1 {
   text-align: center;
@@ -792,7 +793,7 @@ html {
   position: relative;
   margin: 0;
   height: 30vh;
-  background-color: #044d57;
+  background-color: #00262b;
   justify-content: center;
   align-items: center;
 }
@@ -973,6 +974,13 @@ html {
   }
   .btnarea .btn:hover {
     background-color: #7b60c4;
+  }
+  #block-team .container {
+    margin-bottom: 0;
+  }
+
+  .footer-pics {
+    display: none;
   }
 }
 @media only screen and (max-width: 600px) {
