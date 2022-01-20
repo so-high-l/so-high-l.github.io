@@ -13,7 +13,7 @@
 
           RESPONSIVE MEDIA QUERIES
 
-END OF SUMMARY */
+    END OF SUMMARY */
 
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
@@ -54,7 +54,7 @@ html {
 .btn {
   border-radius: 15px;
   text-decoration: none;
-  background: #f43b47;
+  background: #d5a4c3;
   border-color: white;
   color: #210425;
   outline-width: 0;
@@ -69,22 +69,10 @@ html {
   transition: 0.3s ease;
 }
 .btn:hover {
-  background: #4c9d80;
+  background: #14a2ac;
   border-color: white;
-  color: white;
+  color: rgb(0, 0, 0);
   outline-width: 1;
-}
-.circle {
-  z-index: 0;
-  width: 20px;
-  height: 20px;
-  border: 1px solid rgb(0, 0, 0);
-  border-radius: 50%;
-  position: absolute;
-  transition-duration: 200ms;
-  transition-timing-function: ease-out;
-  animation: cursorAnim 1s infinite;
-  pointer-events: none;
 }
 
 @keyframes cursorAnim {
@@ -102,7 +90,7 @@ html {
   overflow: hidden;
   height: 100vh;
   min-height: 100vh;
-  background: linear-gradient(197deg, #040347, #103b38, #85269c, #7fe3f7);
+  background: linear-gradient(10deg, #18000f, #1f000a, #200650, #16003f);
   background-size: 240% 240%;
   animation: gradient-animation 20s ease infinite;
 }
@@ -222,15 +210,15 @@ html {
   flex-wrap: wrap;
 }
 .section-content-hz a i {
-  font-size: 2.5rem;
+  font-size: 2rem;
   padding-right: 1rem;
   opacity: 0.8;
-  color: white;
+  color: #d5a4c3;
 }
 .section-content-hz a:hover i {
   outline: white;
   opacity: 1;
-  color: rgb(76, 157, 129);
+  color: #14a2ac;
 }
 .hero-title {
   font-family: "Staatliches", cursive;
@@ -265,7 +253,7 @@ html {
   position: absolute;
   right: 550px;
   bottom: 0;
-  height: 50%;
+  height: 40%;
 }
 
 .rarecaracter {
@@ -273,7 +261,7 @@ html {
   right: 220px;
   bottom: 0;
   height: 60%;
-  scale: 1.2;
+  scale: 1;
 }
 .communcaracter {
   position: absolute;
@@ -285,7 +273,7 @@ html {
   text-transform: uppercase;
   z-index: 10;
   font-size: 2rem;
-  color: #002015;
+  color: #14a2ac;
   margin-top: -140px;
   margin-left: 80px;
   font-family: "Creepster", cursive;
@@ -342,22 +330,21 @@ html {
 }
 
 .pod-svg.left {
-  bottom: -5%;
-  height: 40%;
-  left: 22%;
+  bottom: 4%;
+  height: 35%;
+  left: 17%;
   scale: 1;
 }
 .pod-svg.right {
   bottom: 10%;
-  height: 35%;
+  height: 55%;
   right: 0;
   scale: 1;
-  transform: rotate(10deg);
 }
 .pod-svg.center {
-  bottom: 0%;
-  right: 19%;
-  height: 60%;
+  bottom: 5%;
+  right: 32%;
+  height: 50%;
   z-index: 9;
   scale: 1;
 }
@@ -377,6 +364,7 @@ html {
 }
 
 .dragon-tiers {
+  /* border: 1px solid red; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
@@ -515,7 +503,7 @@ html {
   padding: 2rem 2rem;
   height: auto;
   min-height: 100vh;
-  background: linear-gradient(181deg, #975401, #d257ff);
+  background: linear-gradient(181deg, #1b0613, #2b0044);
   background-size: 400% 400%;
 
   -webkit-animation: AnimationName 24s ease infinite;
@@ -593,7 +581,7 @@ html {
   content: "";
   width: 3px;
   height: 100%;
-  background: #6e2f65;
+  background: #d875c9;
   left: 50%;
   top: 0;
   position: absolute;
@@ -612,7 +600,7 @@ html {
 }
 
 #timeline .timeline-item .timeline-icon {
-  background: #6e2f65;
+  background: #d875c9;
   width: 50px;
   height: 50px;
   position: absolute;
@@ -631,7 +619,7 @@ html {
 
 #timeline .timeline-item .timeline-content {
   width: 45%;
-  background: #fff;
+  background: rgb(211, 211, 211);
   padding: 20px;
   -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
   -ms-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
@@ -643,8 +631,8 @@ html {
 
 #timeline .timeline-item .timeline-content h2 {
   padding: 15px;
-  background: #6e2f65;
-  color: #fff;
+  background: #d875c9;
+  color: #3f0937;
   margin: -20px -20px 0 -20px;
   font-weight: 300;
   border-radius: 3px 3px 0 0;
@@ -652,8 +640,17 @@ html {
 #timeline .timeline-item .timeline-content p {
   padding: 20px;
 }
+#timeline .timeline-item .timeline-content p span {
+  text-decoration: line-through;
+}
+
 #timeline .timeline-item .timeline-content .btn {
-  background-color: #6e2f65;
+  background-color: #d875c9;
+  padding: 10px;
+}
+#timeline .timeline-item .timeline-content .btn:hover {
+  background-color: #31022a;
+  color: white;
   padding: 10px;
 }
 .project-name {
@@ -661,6 +658,7 @@ html {
   text-align: center;
   color: white;
   padding-bottom: 40px;
+  text-shadow: 0 10px 25px rgba(241, 241, 241, 0.308);
 }
 #timeline .timeline-item .timeline-content:before {
   content: "";
@@ -671,7 +669,7 @@ html {
   height: 0;
   border-top: 7px solid transparent;
   border-bottom: 7px solid transparent;
-  border-left: 7px solid #6e2f65;
+  border-left: 7px solid #d875c9;
 }
 
 #timeline .timeline-item .timeline-content.right {
@@ -683,7 +681,7 @@ html {
   right: 45%;
   left: inherit;
   border-left: 0;
-  border-right: 7px solid #6e2f65;
+  border-right: 7px solid #d875c9;
 }
 
 /* End of Roadmap Styling */
@@ -873,6 +871,7 @@ html {
   right: 25%;
 }
 .footer-egg {
+  height: 200px;
   position: absolute;
   transition: 0.3s ease;
   opacity: 0.3;

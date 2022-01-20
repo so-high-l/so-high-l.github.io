@@ -47,63 +47,69 @@ tl4.to(".communcaracter", {
   // ease: Power1.easeInOut,
 });
 // cursor circle
-const cursor = document.querySelector(".circle");
-
-document.addEventListener("mousemove", (e) => {
-  cursor.setAttribute(
-    "style",
-    "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;"
-  );
-});
 
 // gallery carousels
 //eggs
-const p1 = "./assets/images/nft/normal dragon/images/";
-const p2 = "./assets/images/nft/egg/images/";
+const p1 = "./assets/images/nft/dragon/";
+const p2 = "./assets/images/nft/egg/";
 let image1 = document.querySelector("#eggs-imgs");
-let dragonsimages = [
-  "1.png",
-  "2.png",
-  "3.png",
-  "4.png",
-  "5.png",
-  "6.png",
-  "7.png",
-  "8.png",
-  "9.png",
-  "10.png",
-  "11.png",
-  "12.png",
-  "13.png",
-  "14.png",
-  "15.png",
-];
+
 let eggsimages = [
-  "1.png",
-  "2.png",
-  "3.png",
-  "4.png",
-  "5.png",
-  "6.png",
-  "7.png",
-  "8.png",
-  "9.png",
-  "10.png",
-  "11.png",
-  "12.png",
-  "13.png",
-  "14.png",
-  "15.png",
+  "egg1.png",
+  "egg2.png",
+  "egg3.png",
+  "egg4.png",
+  "egg5.png",
+  "egg6.png",
+  "egg7.png",
+  "egg8.png",
+  "egg9.png",
+  "egg10.png",
+  "egg11.png",
+  "egg12.png",
+  "egg13.png",
+  "egg14.png",
+  "egg15.png",
+  "egg16.png",
+  "egg17.png",
+  "egg18.png",
+  "egg19.png",
+  "egg20.png",
+  "egg21.png",
+  "egg22.png",
+  "egg23.png",
+  "egg24.png",
+  "egg25.png",
+  "queenegg.png",
 ];
 setInterval(function () {
-  let random = Math.floor(Math.random() * 15);
+  let random = Math.floor(Math.random() * 26);
   image1.src = p2 + eggsimages[random];
 }, 300);
 
 // dragons
 let image2 = document.querySelector("#dragons-imgs");
+let dragonsimages = [
+  "d1.png",
+  "d2.png",
+  "d3.png",
+  "d4.png",
+  "d5.png",
+  "d6.png",
+  "d7.png",
+  "d8.png",
+  "d9.png",
+  "d10.png",
+  "d11.png",
+  "d12.png",
+  "d13.png",
+  "d14.png",
+  "d15.png",
+  "queen.png",
+  "queen.png",
+];
 setInterval(function () {
-  let random = Math.floor(Math.random() * 15);
+  let random = Math.floor(Math.random() * 17);
   image2.src = p1 + dragonsimages[random];
 }, 300);
 
