@@ -1,28 +1,113 @@
+.justify-content {
+  justify-content: center;
+}
+.align-items {
+  align-items: center;
+}
+
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 .page-wrapper {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: auto;
+  background: linear-gradient(181deg, #000000, #0c0e66);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 24s ease infinite;
+  -moz-animation: AnimationName 24s ease infinite;
+  -o-animation: AnimationName 24s ease infinite;
+  animation: AnimationName 24s ease infinite;
 }
 #block-whitepaper {
-  border: 1px solid rgb(0, 94, 23);
-  margin: 5rem 3rem;
+  /* border: 1px solid rgb(0, 94, 23); */
+  padding: 5rem 200px;
   min-width: 900px;
-  padding: 30px 100px;
   line-height: 45px;
   letter-spacing: 1px;
-  background-color: black;
-  color: white;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 48% 0%;
+  }
+  50% {
+    background-position: 53% 100%;
+  }
+  100% {
+    background-position: 48% 0%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 48% 0%;
+  }
+  50% {
+    background-position: 53% 100%;
+  }
+  100% {
+    background-position: 48% 0%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 48% 0%;
+  }
+  50% {
+    background-position: 53% 100%;
+  }
+  100% {
+    background-position: 48% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 48% 0%;
+  }
+  50% {
+    background-position: 53% 100%;
+  }
+  100% {
+    background-position: 48% 0%;
+  }
 }
 article {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+  color: white;
   margin-bottom: 70px;
 }
 article .article-title {
   text-align: center;
   font-size: 2rem;
-  color: red;
+  color: rgb(206, 33, 163);
+  text-shadow: 0 10px 25px rgba(241, 241, 241, 0.308);
+  padding-bottom: 60px;
 }
 article .article-content {
-  text-align: center;
+  text-align: start;
   font-size: 1rem;
-  color: rgb(0, 110, 33);
+  color: rgb(255, 255, 255);
+}
+.minting-table table {
+  letter-spacing: 1px;
+  line-height: 20px;
+  border: 3px solid rgb(206, 33, 163);
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.minting-table table td {
+  padding: 10px 15px;
+  width: 300px;
+  text-align: start;
+}
+
+article {
+}
+
+article .article-content {
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
