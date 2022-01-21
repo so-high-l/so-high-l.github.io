@@ -1,0 +1,28 @@
+.page-wrapper {
+  border: 1px solid red;
+  height: auto;
+}
+#block-whitepaper {
+  border: 1px solid rgb(0, 94, 23);
+  margin: 5rem 3rem;
+  min-width: 900px;
+  padding: 30px 100px;
+  line-height: 45px;
+  letter-spacing: 1px;
+  background-color: black;
+  color: white;
+}
+article {
+  border: 1px solid blue;
+  margin-bottom: 70px;
+}
+article .article-title {
+  text-align: center;
+  font-size: 2rem;
+  color: red;
+}
+article .article-content {
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(0, 110, 33);
+}
