@@ -6,10 +6,16 @@ navbtn.addEventListener("click", function () {
   ) {
     navbtn.src =
       "https://img.icons8.com/ios-filled/30/ffffff/delete-sign--v1.png";
-    heroNavigationMenu.style.right = "0px";
+    heroNavigationMenu.style.right = "0";
   } else {
     navbtn.src = "https://img.icons8.com/ios-filled/30/ffffff/menu--v1.png";
-    heroNavigationMenu.style.right = "-600px";
+    if (window.innerWidth > "1500") {
+      heroNavigationMenu.style.right = -window.innerWidth / 0.37 + "px";
+    } else if (window.innerWidth > "600") {
+      heroNavigationMenu.style.right = -window.innerWidth / 0.15 + "px";
+    } else if (window.innerWidth > "400") {
+      heroNavigationMenu.style.right = -window.innerWidth / 0.1 + "px";
+    }
   }
 });
 

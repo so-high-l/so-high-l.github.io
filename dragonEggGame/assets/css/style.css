@@ -1058,7 +1058,7 @@ html {
     overflow-x: hidden;
   }
   .hero-navigation-menu {
-    width: 50vw;
+    /* width: 50vw; */
   }
   .hero-content.btn {
     margin-top: 0;
@@ -1081,6 +1081,7 @@ html {
     right: 0;
     bottom: 10%;
     height: 30%;
+    width: 800px;
   }
 
   .hero-social {
@@ -1157,7 +1158,7 @@ html {
     font-size: 0.8rem;
   }
   .hero-navigation-menu {
-    width: 100vw;
+    /* width: 100vw; */
   }
   .hero-title {
     font-weight: 600;
@@ -1174,6 +1175,42 @@ html {
     right: 13%;
     bottom: 10%;
     height: 30%;
+  }
+
+  .hero-social {
+    position: absolute;
+    bottom: 0%;
+  }
+}
+
+@media only screen and (min-height: 900px) {
+  .logotxt {
+    font-size: 0.8rem;
+  }
+  .hero-navigation-menu {
+    /* width: 100vw; */
+  }
+  .hero-title {
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .epiccaracter {
+    position: absolute;
+    left: 33%;
+    bottom: 10%;
+    height: 40%;
+  }
+  .commoncaracter {
+    position: absolute;
+    right: 13%;
+    bottom: 10%;
+    height: 40%;
+  }
+  .rarecaracter {
+    position: absolute;
+    right: 35%;
+    bottom: 10%;
+    height: 50%;
   }
 
   .hero-social {
