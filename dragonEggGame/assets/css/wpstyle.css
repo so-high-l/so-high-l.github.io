@@ -89,6 +89,7 @@ article .article-title {
   color: rgb(206, 33, 163);
   text-shadow: 0 10px 25px rgba(241, 241, 241, 0.308);
   padding-bottom: 60px;
+  text-transform: uppercase;
 }
 article .article-content {
   text-align: start;

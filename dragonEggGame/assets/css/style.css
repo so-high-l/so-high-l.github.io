@@ -263,7 +263,7 @@ html {
   height: 60%;
   scale: 1;
 }
-.communcaracter {
+.commoncaracter {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1070,7 +1070,7 @@ html {
     bottom: 10%;
     height: 30%;
   }
-  .communcaracter {
+  .commoncaracter {
     display: none;
   }
   .rarecaracter {
@@ -1163,7 +1163,7 @@ html {
   .epiccaracter {
     display: none;
   }
-  .communcaracter {
+  .commoncaracter {
     display: none;
   }
   .rarecaracter {
