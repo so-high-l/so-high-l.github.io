@@ -10,6 +10,16 @@ html {
   margin: 0;
   box-sizing: border-box;
 }
+span.important {
+  color: rgb(255, 0, 170);
+  text-shadow: 0 10px 25px rgba(241, 241, 241, 0.308);
+  font-size: 1.2rem;
+}
+span.importantyellow {
+  color: rgb(236, 232, 0);
+  text-shadow: 0 10px 20px rgb(236, 232, 0);
+  font-size: 1.4rem;
+}
 .page-wrapper {
   /* border: 1px solid red; */
   height: auto;
