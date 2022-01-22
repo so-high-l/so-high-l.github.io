@@ -174,12 +174,12 @@ article .article-content {
   article {
     color: white;
     margin-bottom: 70px;
-    min-width: 400px;
+    min-width: 340px;
   }
   article .article-title {
     text-align: center;
     font-size: 2rem;
-    list-style: 10px;
+    line-height: 40px;
     color: rgb(206, 33, 163);
     text-shadow: 0 10px 25px rgba(241, 241, 241, 0.308);
     padding-bottom: 60px;
