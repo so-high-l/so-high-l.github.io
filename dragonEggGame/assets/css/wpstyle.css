@@ -16,14 +16,14 @@ span.important {
   font-size: 1.2rem;
 }
 span.importantyellow {
-  color: rgb(236, 232, 0);
+  color: #fff42c;
   text-shadow: 0 10px 20px rgb(236, 232, 0);
   font-size: 1.4rem;
 }
 .page-wrapper {
   /* border: 1px solid red; */
   height: auto;
-  background: linear-gradient(181deg, #000000, #0c0e66);
+  background: linear-gradient(181deg, #000000, #050627);
   background-size: 400% 400%;
 
   -webkit-animation: AnimationName 24s ease infinite;
@@ -131,7 +131,6 @@ article .article-content {
   #block-whitepaper {
     /* border: 1px solid rgb(0, 94, 23); */
     padding: 1rem 50px;
-    line-height: 55px;
     letter-spacing: 1px;
   }
   article {
@@ -141,14 +140,14 @@ article .article-content {
   }
   article .article-title {
     text-align: center;
-    font-size: 2.9rem;
+    font-size: 2rem;
     color: rgb(206, 33, 163);
     text-shadow: 0 10px 25px rgba(241, 241, 241, 0.308);
     padding-bottom: 60px;
   }
   article .article-content {
     text-align: start;
-    font-size: 2rem;
+    font-size: 1rem;
     color: rgb(255, 255, 255);
   }
   .minting-table table {
