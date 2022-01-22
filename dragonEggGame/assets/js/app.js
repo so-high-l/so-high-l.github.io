@@ -22,7 +22,7 @@ navbtn.addEventListener("click", function () {
 var tl1 = gsap.timeline();
 // tl1.from("#block-hero", { duration: 0.8, width: "0" });
 tl1.from(".hero-navigation-btn", { duration: 1, opacity: "0", x: "20px" });
-tl1.from(".communcaracter", { duration: 0.5, x: 300, opacity: 0 });
+tl1.from(".commoncaracter", { duration: 0.5, x: 300, opacity: 0 });
 tl1.from(".epiccaracter", { duration: 0.5, x: -300, opacity: 0 });
 tl1.from(".rarecaracter", { duration: 0.5, y: 10, opacity: 0 });
 tl1.from(".hero-content", {
@@ -47,7 +47,7 @@ tl3.to(".epiccaracter", {
 });
 
 var tl4 = gsap.timeline({ repeat: -1, yoyo: true });
-tl4.to(".communcaracter", {
+tl4.to(".commoncaracter", {
   duration: 0.5,
   scale: 1.02,
   // ease: Power1.easeInOut,
