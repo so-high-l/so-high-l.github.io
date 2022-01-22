@@ -171,6 +171,16 @@ article .article-content {
     justify-content: center;
     flex-direction: column;
   }
+  span.important {
+    color: rgb(255, 0, 170);
+    text-shadow: 0 10px 25px rgba(241, 241, 241, 0.308);
+    font-size: 1.4rem;
+  }
+  span.importantyellow {
+    color: #fff42c;
+    text-shadow: 0 10px 20px rgb(236, 232, 0);
+    font-size: 1.7rem;
+  }
 }
 
 @media only screen and (max-width: 500px) {
