@@ -23,8 +23,12 @@ html {
 }
 #block-whitepaper {
   /* border: 1px solid rgb(0, 94, 23); */
-  padding: 5rem 200px;
-  min-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 300px auto;
+  margin-right: auto;
+  margin-left: auto;
   line-height: 45px;
   letter-spacing: 1px;
 }
@@ -74,9 +78,10 @@ html {
   }
 }
 article {
-  /* border: 1px solid blue; */
+  /* border: 1px solid rgb(255, 255, 255); */
   color: white;
-  margin-bottom: 70px;
+  padding: 2rem 3rem;
+  max-width: 930px;
 }
 article .article-title {
   text-align: center;
@@ -110,4 +115,97 @@ article .article-content {
   align-items: center;
   justify-content: center;
   flex-direction: row;
+}
+@media only screen and (min-width: 1500px) {
+  #block-whitepaper {
+    /* border: 1px solid rgb(0, 94, 23); */
+    padding: 1rem 50px;
+    line-height: 55px;
+    letter-spacing: 1px;
+  }
+  article {
+    color: white;
+    margin-bottom: 70px;
+    max-width: 1500px;
+  }
+  article .article-title {
+    text-align: center;
+    font-size: 2.9rem;
+    color: rgb(206, 33, 163);
+    text-shadow: 0 10px 25px rgba(241, 241, 241, 0.308);
+    padding-bottom: 60px;
+  }
+  article .article-content {
+    text-align: start;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+  }
+  .minting-table table {
+    letter-spacing: 1px;
+    line-height: 20px;
+    border: 3px solid rgb(206, 33, 163);
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .minting-table table td {
+    padding: 5px 5px;
+    width: 300px;
+    text-align: start;
+  }
+
+  article {
+  }
+
+  article .article-content {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #block-whitepaper {
+    /* border: 1px solid rgb(0, 94, 23); */
+    padding: 1rem 50px;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+  }
+  article {
+    color: white;
+    margin-bottom: 70px;
+    min-width: 400px;
+  }
+  article .article-title {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(206, 33, 163);
+    text-shadow: 0 10px 25px rgba(241, 241, 241, 0.308);
+    padding-bottom: 60px;
+  }
+  article .article-content {
+    text-align: start;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+  }
+  .minting-table table {
+    letter-spacing: 1px;
+    line-height: 20px;
+    border: 3px solid rgb(206, 33, 163);
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+  .minting-table table td {
+    padding: 5px 5px;
+    width: 300px;
+    text-align: start;
+  }
+
+  article {
+  }
+
+  article .article-content {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
