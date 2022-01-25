@@ -10,11 +10,13 @@ navbtn.addEventListener("click", function () {
   } else {
     navbtn.src = "https://img.icons8.com/ios-filled/30/ffffff/menu--v1.png";
     if (window.innerWidth > "1500") {
-      heroNavigationMenu.style.right = -window.innerWidth / 0.37 + "px";
+      heroNavigationMenu.style.right = "-3000px";
     } else if (window.innerWidth > "600") {
-      heroNavigationMenu.style.right = -window.innerWidth / 0.15 + "px";
+      heroNavigationMenu.style.right = "-1500px";
     } else if (window.innerWidth > "400") {
-      heroNavigationMenu.style.right = -window.innerWidth / 0.1 + "px";
+      heroNavigationMenu.style.right = "-600px";
+    } else {
+      heroNavigationMenu.style.right = "-600px";
     }
   }
 });
