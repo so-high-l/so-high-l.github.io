@@ -1,8 +1,61 @@
 body {
   background-color: #000;
-
+font-family: "Poppins", sans-serif;
   overflow-x: hidden;
+  letter-spacing: 1.2px;
+  background: linear-gradient(181deg, #000000, #050627);
+  background-size: 400% 400%;
+
+  -webkit-animation: AnimationName 24s ease infinite;
+  -moz-animation: AnimationName 24s ease infinite;
+  -o-animation: AnimationName 24s ease infinite;
+  animation: AnimationName 24s ease infinite;
 }
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 48% 0%;
+  }
+  50% {
+    background-position: 53% 100%;
+  }
+  100% {
+    background-position: 48% 0%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 48% 0%;
+  }
+  50% {
+    background-position: 53% 100%;
+  }
+  100% {
+    background-position: 48% 0%;
+  }
+}
+@-o-keyframes AnimationName {
+  0% {
+    background-position: 48% 0%;
+  }
+  50% {
+    background-position: 53% 100%;
+  }
+  100% {
+    background-position: 48% 0%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 48% 0%;
+  }
+  50% {
+    background-position: 53% 100%;
+  }
+  100% {
+    background-position: 48% 0%;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @font-face {
   font-family: 'ESL Legend';
@@ -40,6 +93,7 @@ body {
 
 img {
   max-width: 100%;
+  border-radius: 5px;
 }
 
 .ag-format-container {
@@ -50,7 +104,7 @@ img {
 }
 
 .ag-timeline-block {
-  padding: 300px 0;
+  padding: 100px 0;
 }
 .ag-timeline_title-box {
   padding: 0 0 30px;
@@ -58,8 +112,12 @@ img {
   text-align: center;
 }
 .ag-timeline_tagline {
-  font-size: 40px;
-  color: rgb(84, 89, 95);
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 700;
+  color: rgb(111, 112, 113);
+  margin-bottom: 100px;
+  text-shadow: 5px 15px 25px rgb(192, 0, 128);
 }
 .ag-timeline_title {
   background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/bg.jpg);
@@ -113,7 +171,7 @@ img {
 .ag-timeline_line-progress {
   width: 100%;
   height: 20%;
-  background-color: #FF0;
+  background-color: rgb(192, 0, 128);
 }
 
 .ag-timeline-card_box {
@@ -133,7 +191,7 @@ img {
   height: 50px;
   line-height: 50px;
   width: 50px;
-  border: 3px solid #FF0;
+  border: 3px solid rgb(192, 0, 128);
   background-color: #1d1d1b;
 
   text-align: center;
@@ -147,7 +205,7 @@ img {
 }
 .js-ag-active .ag-timeline-card_point {
   color: #1d1d1b;
-  background-color: #FF0;
+  background-color: rgb(192, 0, 128);
 }
 .ag-timeline-card_meta-box {
   display: inline-block;
@@ -158,7 +216,7 @@ img {
   font-family: 'ESL Legend', sans-serif;
   font-weight: bold;
   font-size: 28px;
-  color: #FF0;
+  color: rgb(192, 0, 128);
 }
 .ag-timeline-card_item {
   display: inline-block;
@@ -248,7 +306,7 @@ img {
   font-family: 'ESL Legend', sans-serif;
   font-weight: bold;
   font-size: 28px;
-  color: #FF0;
+  color: rgb(192, 0, 128);
 }
 .ag-timeline-card_desc {
   line-height: 1.45;
@@ -305,6 +363,9 @@ img {
   .ag-timeline-card_arrow {
     margin-top: 12px;
   }
+}
+.left{
+  text-align: left;
 }
 
 @media only screen and (max-width: 767px) {
