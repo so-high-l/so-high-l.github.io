@@ -161,7 +161,7 @@ html {
   right: -600px;
   background-color: #84269cb6;
   z-index: 998;
-  transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .hero-navigation-menu h1 {
