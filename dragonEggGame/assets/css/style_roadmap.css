@@ -90,7 +90,9 @@ font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: bold;
 }
-
+p.checked{
+  text-decoration: line-through;
+}
 img {
   max-width: 100%;
   border-radius: 5px;
