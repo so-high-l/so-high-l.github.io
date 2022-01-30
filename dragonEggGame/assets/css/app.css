@@ -59,7 +59,7 @@ html {
 .page-wrapper2 {
   /* border: 1px solid red; */
   padding: 10px 30px;
-  height: 100vh;
+  margin: 100px 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -188,10 +188,7 @@ html {
 .page-wrapper2 .row3 {
   margin: 40px auto;
   /* border: 1px solid red; */
-  max-width: 600px;
-  width: 600px;
-  max-width: 600px;
-  width: 600px;
+  max-width: 900px;
 }
 .page-wrapper2 .row3 table {
   /* border: 1px solid rgb(72, 255, 0); */
@@ -205,4 +202,47 @@ html {
 }
 .content-title {
   color: #fff;
+}
+
+@media only screen and (max-width: 900px) {
+  .col {
+    /* border: 1px solid green; */
+    height: 300px;
+    min-width: 80%;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    background-color: #94a89ad0;
+  }
+  .title {
+    font-size: 3rem;
+    color: white;
+  }
+  .page-wrapper2 .row3 table tr td {
+    font-size: 1rem;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    padding: 10px 20px;
+    /* border: 1px solid rgb(0, 81, 255); */
+  }
+  .page-wrapper2 .row3 {
+    margin: 30px 10px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .col {
+    /* border: 1px solid green; */
+    height: 300px;
+    min-width: 80%;
+    margin: 20px 20px;
+    padding: 10px 10px;
+    background-color: #94a89ad0;
+  }
+  .title {
+    font-size: 2rem;
+    color: white;
+  }
+  .page-wrapper2 .row3 {
+    margin: 20px 10px;
+}
 }

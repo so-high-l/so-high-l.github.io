@@ -161,7 +161,7 @@ html {
   right: -600px;
   background-color: #84269cb6;
   z-index: 998;
-  transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .hero-navigation-menu h1 {
@@ -1008,6 +1008,9 @@ html {
   }
 }
 @media screen and (max-width: 900px) {
+  #block-gallery {
+    max-height: 2000px;
+  }
   .rarecaracter {
     height: 40%;
     width: 300px;
@@ -1023,7 +1026,7 @@ html {
 }
 @media screen and (max-width: 768px) {
   #block-gallery {
-    height: auto;
+    max-height: 2000px;
   }
   #timeline {
     margin: 30px;
@@ -1041,12 +1044,12 @@ html {
   }
   #timeline .timeline-item .timeline-content {
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.308);
-    width: 95%;
+    width: 87%;
     float: right;
   }
   #timeline .timeline-item .timeline-content:before,
   #timeline .timeline-item .timeline-content.right:before {
-    left: 10%;
+    left: 0%;
     margin-left: -6px;
     border-left: 0;
     border-right: 7px solid #6e2f65;
@@ -1077,7 +1080,7 @@ html {
     overflow-x: hidden;
   }
   #block-gallery {
-    height: auto;
+    max-height: 2000px;
   }
   .hero-navigation-menu {
     width: 50vw;
@@ -1177,7 +1180,7 @@ html {
 
 @media only screen and (max-width: 400px) {
   #block-gallery {
-    height: 100vh;
+    max-height: 2000px;
   }
   .logotxt {
     font-size: 0.8rem;
