@@ -90,7 +90,7 @@ html {
   overflow: hidden;
   height: 100vh;
   min-height: 100vh;
-  background: linear-gradient(10deg, #18000f, #1f000a, #200650, #16003f);
+  background: linear-gradient(100deg,#000000 ,#350431, #8b1d9c, #401b85, #2d0080);
   background-size: 240% 240%;
   animation: gradient-animation 20s ease infinite;
 }
