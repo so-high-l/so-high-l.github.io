@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.82c8a318.css",
+    "main.js": "/static/js/main.7ac27173.js",
+    "static/media/background.jpg": "/static/media/background.1ba60cea64a8c268c206.jpg",
+    "static/media/rareWbg3.jpeg": "/static/media/rareWbg3.652fb08303c70a3d7328.jpeg",
+    "static/media/rareWbg2.jpeg": "/static/media/rareWbg2.dbce89ece962ef80a705.jpeg",
+    "static/media/rarenobg.png": "/static/media/rarenobg.6b98bbf1683d259e54b8.png",
+    "static/media/epicWbg.jpeg": "/static/media/epicWbg.e68840671399da47a7f7.jpeg",
+    "static/media/goldbill-xllight.ttf": "/static/media/goldbill-xllight.9721189f4a5b20e0bb40.ttf",
+    "static/media/eggnobg.png": "/static/media/eggnobg.96b1f0b473fd0ee9352a.png",
+    "static/media/commonnobg.png": "/static/media/commonnobg.b004e664e33d9bcb36ab.png",
+    "static/media/epicnobg.png": "/static/media/epicnobg.fcb34bf6781cdf1dbc60.png",
+    "static/media/d3.png": "/static/media/d3.5bc95f2bfbe79febf567.png",
+    "static/media/d2.png": "/static/media/d2.c1dfe6d13402225a1ce1.png",
+    "static/media/d1.png": "/static/media/d1.92e8dd2dadd5a69a3d1f.png",
+    "static/media/d4.png": "/static/media/d4.1f32ef0f32a4bf1560f6.png",
+    "static/media/d7.png": "/static/media/d7.45ca76829563da9f33a5.png",
+    "static/media/d5.png": "/static/media/d5.6ae764013286b82e489b.png",
+    "static/media/d9.png": "/static/media/d9.94326e180ece3dcdfeae.png",
+    "static/media/egg3.png": "/static/media/egg3.3df0a3111376ce041713.png",
+    "static/media/egg2.png": "/static/media/egg2.237d4baaeca2b38240b8.png",
+    "static/media/common2.png": "/static/media/common2.4cf3444d2fdccf08c17c.png",
+    "static/media/common1.png": "/static/media/common1.0a1004fc7eb302b2597e.png",
+    "index.html": "/index.html",
+    "main.82c8a318.css.map": "/static/css/main.82c8a318.css.map",
+    "main.7ac27173.js.map": "/static/js/main.7ac27173.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82c8a318.css",
+    "static/js/main.7ac27173.js"
+  ]
+}

@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap");
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+.btn {
+  padding: 10px 20px;
+  border-radius: 10px 10px 0px 0px;
+  transition: 0.3s ease;
+  font-size: 18px;
+  font-weight: 500px !important;
+  background-color: #222222;
+  color: #fff;
+}
+.btn.active {
+  background: #800059;
+  color: #000;
+}
+
+.btn:hover {
+  background: #800059;
+  box-shadow: 5px 5px 15px 5px #800059;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 500px;
+  color: #000;
+}
+.mint-btn {
+  background-color: #222222;
+  color: #fff;
+  border-radius: 30px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+}
+.mint-btn:hover {
+  color: #000;
+  font-weight: 500px;
+}
+
+.invisible {
+  display: none;
+}
+
+.mint-interface {
+  padding: 30px 40px;
+  font-family: "Poppins", sans-serif;
+}
+.row1 .title {
+  text-align: center;
+  color: rgb(80, 80, 80);
+  text-shadow: 7px 7px 30px #bb0584;
+  font-size: 3rem;
+}
+.row2 {
+  margin-top: 100px;
+  /* border: 2px solid red; */
+  padding: 30px;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.nav-item {
+  margin: 0 5px 1px;
+}
+
+.tab-content {
+  /* display: none; */
+  background-color: #222222;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px #800059;
+  padding: 40px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  position: relative;
+  z-index: 10;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid #800059;
+  overflow: hidden;
+}
+.tab-content > .active {
+  display: block;
+}
+
+.wallet_connection {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  padding: 50px;
+}
+
+@media screen and (max-width: 1277px) {
+  .btn {
+    padding: 7px 14px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 775px) {
+  .btn {
+    padding: 7px 14px;
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 625px) {
+  .row2 {
+    margin-top: 20px;
+  }
+  .btn {
+    padding: 7px 14px;
+    font-size: 6px;
+    border-radius: 10px;
+  }
+  .mint-interface {
+    padding: 0px 20px;
+    font-family: "Poppins", sans-serif;
+  }
+  .nav {
+    display: block;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  .title {
+    /* border: 1px solid green; */
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 5px 5px 20px #000000;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .stack-interface {
+    padding: 20px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    overflow-y: scroll;
+  }
+  .col {
+    height: 690px;
+    width: 90%;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #2222229d;
+    overflow-y: scroll;
+    /* border: 1px solid red; */
+  }
+  .stake-btn {
+    margin-bottom: 8px;
+  }
+}
